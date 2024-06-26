@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MedicalClaim.Tests
-build_property.ProjectDir = /Users/raihanns/Development/MedicalClaim.Tests/
+build_property.ProjectDir = /Users/raihanns/Development/MedicalClaims/MedicalClaim.Tests/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

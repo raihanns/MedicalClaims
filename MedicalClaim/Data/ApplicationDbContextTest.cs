@@ -4,8 +4,8 @@ namespace MedicalClaim.Data
 {
     public class ApplicationDbContextTest : ApplicationDbContext
     {
-        public ApplicationDbContextTest(DbContextOptions<ApplicationDbContext> options)
-            : base(options)
+        public ApplicationDbContextTest(DbContextOptions<ApplicationDbContextTest> options)
+            : base(new DbContextOptions<ApplicationDbContext>())
         {
         }
     }

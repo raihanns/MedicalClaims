@@ -1,8 +1,11 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using MedicalClaim.Data;
 using MedicalClaim.Models;
 using MedicalClaim.Services;
+using System.Threading.Tasks;
+using System.Collections.Generic;
+using System;
+using Microsoft.EntityFrameworkCore;
 
 namespace MedicalClaim.Controllers
 {
@@ -52,15 +55,6 @@ namespace MedicalClaim.Controllers
         }
 
         [HttpGet]
-        // public async Task<ActionResult<IEnumerable<Claim>>> ListAllClaims(string status = null, DateTime? startDate, DateTime? endDate)
-        // {
-        //     var claims = await _context.Claims
-        //         .Where(c => (string.IsNullOrEmpty(status) || c.Status == status) &&
-        //                     (!startDate.HasValue || c.DateOfService >= startDate.Value) &&
-        //                     (!endDate.HasValue || c.DateOfService <= endDate.Value))
-        //         .ToListAsync();
-        //     return claims;
-        // }
         public async Task<ActionResult<IEnumerable<Claim>>> ListAllClaims([FromQuery] string status = null, [FromQuery] DateTime? startDate = null, [FromQuery] DateTime? endDate = null)
         {
             var claims = _context.Claims.AsQueryable();
@@ -96,7 +90,7 @@ namespace MedicalClaim.Controllers
             claim.Status = isValid ? "Approved" : "Rejected";
             await _context.SaveChangesAsync();
 
-            return Ok(claim);
+            return NoContent();
         }
     }
 }

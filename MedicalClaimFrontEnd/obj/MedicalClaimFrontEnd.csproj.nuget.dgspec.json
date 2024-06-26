@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/raihanns/Development/MedicalClaimFrontEnd/MedicalClaimFrontEnd.csproj": {}
+    "/Users/raihanns/Development/MedicalClaims/MedicalClaimFrontEnd/MedicalClaimFrontEnd.csproj": {}
   },
   "projects": {
-    "/Users/raihanns/Development/MedicalClaim/MedicalClaim.csproj": {
+    "/Users/raihanns/Development/MedicalClaims/MedicalClaim/MedicalClaim.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/raihanns/Development/MedicalClaim/MedicalClaim.csproj",
+        "projectUniqueName": "/Users/raihanns/Development/MedicalClaims/MedicalClaim/MedicalClaim.csproj",
         "projectName": "MedicalClaim",
-        "projectPath": "/Users/raihanns/Development/MedicalClaim/MedicalClaim.csproj",
+        "projectPath": "/Users/raihanns/Development/MedicalClaims/MedicalClaim/MedicalClaim.csproj",
         "packagesPath": "/Users/raihanns/.nuget/packages/",
-        "outputPath": "/Users/raihanns/Development/MedicalClaim/obj/",
+        "outputPath": "/Users/raihanns/Development/MedicalClaims/MedicalClaim/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/raihanns/.nuget/NuGet/NuGet.Config"
@@ -93,14 +93,14 @@
         }
       }
     },
-    "/Users/raihanns/Development/MedicalClaimFrontEnd/MedicalClaimFrontEnd.csproj": {
+    "/Users/raihanns/Development/MedicalClaims/MedicalClaimFrontEnd/MedicalClaimFrontEnd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/raihanns/Development/MedicalClaimFrontEnd/MedicalClaimFrontEnd.csproj",
+        "projectUniqueName": "/Users/raihanns/Development/MedicalClaims/MedicalClaimFrontEnd/MedicalClaimFrontEnd.csproj",
         "projectName": "MedicalClaimFrontEnd",
-        "projectPath": "/Users/raihanns/Development/MedicalClaimFrontEnd/MedicalClaimFrontEnd.csproj",
+        "projectPath": "/Users/raihanns/Development/MedicalClaims/MedicalClaimFrontEnd/MedicalClaimFrontEnd.csproj",
         "packagesPath": "/Users/raihanns/.nuget/packages/",
-        "outputPath": "/Users/raihanns/Development/MedicalClaimFrontEnd/obj/",
+        "outputPath": "/Users/raihanns/Development/MedicalClaims/MedicalClaimFrontEnd/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/raihanns/.nuget/NuGet/NuGet.Config"
@@ -115,8 +115,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/raihanns/Development/MedicalClaim/MedicalClaim.csproj": {
-                "projectPath": "/Users/raihanns/Development/MedicalClaim/MedicalClaim.csproj"
+              "/Users/raihanns/Development/MedicalClaims/MedicalClaim/MedicalClaim.csproj": {
+                "projectPath": "/Users/raihanns/Development/MedicalClaims/MedicalClaim/MedicalClaim.csproj"
               }
             }
           }

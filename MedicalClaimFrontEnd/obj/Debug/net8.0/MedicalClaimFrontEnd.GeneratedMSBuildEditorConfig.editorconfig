@@ -9,59 +9,59 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MedicalClaimFrontEnd
 build_property.RootNamespace = MedicalClaimFrontEnd
-build_property.ProjectDir = /Users/raihanns/Development/MedicalClaimFrontEnd/
+build_property.ProjectDir = /Users/raihanns/Development/MedicalClaims/MedicalClaimFrontEnd/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/raihanns/Development/MedicalClaimFrontEnd
+build_property.MSBuildProjectDirectory = /Users/raihanns/Development/MedicalClaims/MedicalClaimFrontEnd
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/raihanns/Development/MedicalClaimFrontEnd/Pages/Error.cshtml]
+[/Users/raihanns/Development/MedicalClaims/MedicalClaimFrontEnd/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/raihanns/Development/MedicalClaimFrontEnd/Pages/GetClaimDetails.cshtml]
+[/Users/raihanns/Development/MedicalClaims/MedicalClaimFrontEnd/Pages/GetClaimDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvR2V0Q2xhaW1EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/raihanns/Development/MedicalClaimFrontEnd/Pages/Index.cshtml]
+[/Users/raihanns/Development/MedicalClaims/MedicalClaimFrontEnd/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/raihanns/Development/MedicalClaimFrontEnd/Pages/ListAllClaims.cshtml]
+[/Users/raihanns/Development/MedicalClaims/MedicalClaimFrontEnd/Pages/ListAllClaims.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGlzdEFsbENsYWltcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/raihanns/Development/MedicalClaimFrontEnd/Pages/Login.cshtml]
+[/Users/raihanns/Development/MedicalClaims/MedicalClaimFrontEnd/Pages/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/raihanns/Development/MedicalClaimFrontEnd/Pages/Privacy.cshtml]
+[/Users/raihanns/Development/MedicalClaims/MedicalClaimFrontEnd/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/raihanns/Development/MedicalClaimFrontEnd/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/raihanns/Development/MedicalClaims/MedicalClaimFrontEnd/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/raihanns/Development/MedicalClaimFrontEnd/Pages/SubmitClaim.cshtml]
+[/Users/raihanns/Development/MedicalClaims/MedicalClaimFrontEnd/Pages/SubmitClaim.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3VibWl0Q2xhaW0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/raihanns/Development/MedicalClaimFrontEnd/Pages/UpdateClaimStatus.cshtml]
+[/Users/raihanns/Development/MedicalClaims/MedicalClaimFrontEnd/Pages/UpdateClaimStatus.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXBkYXRlQ2xhaW1TdGF0dXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/raihanns/Development/MedicalClaimFrontEnd/Pages/_ViewImports.cshtml]
+[/Users/raihanns/Development/MedicalClaims/MedicalClaimFrontEnd/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/raihanns/Development/MedicalClaimFrontEnd/Pages/_ViewStart.cshtml]
+[/Users/raihanns/Development/MedicalClaims/MedicalClaimFrontEnd/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/raihanns/Development/MedicalClaimFrontEnd/Pages/Shared/_Layout.cshtml]
+[/Users/raihanns/Development/MedicalClaims/MedicalClaimFrontEnd/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-8k2c8dkmfr

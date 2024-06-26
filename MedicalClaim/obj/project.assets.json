@@ -2889,11 +2889,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/raihanns/Development/MedicalClaim/MedicalClaim.csproj",
+      "projectUniqueName": "/Users/raihanns/Development/MedicalClaims/MedicalClaim/MedicalClaim.csproj",
       "projectName": "MedicalClaim",
-      "projectPath": "/Users/raihanns/Development/MedicalClaim/MedicalClaim.csproj",
+      "projectPath": "/Users/raihanns/Development/MedicalClaims/MedicalClaim/MedicalClaim.csproj",
       "packagesPath": "/Users/raihanns/.nuget/packages/",
-      "outputPath": "/Users/raihanns/Development/MedicalClaim/obj/",
+      "outputPath": "/Users/raihanns/Development/MedicalClaims/MedicalClaim/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/raihanns/.nuget/NuGet/NuGet.Config"

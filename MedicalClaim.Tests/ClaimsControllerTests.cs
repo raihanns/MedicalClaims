@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MedicalClaim.Controllers;
-using MedicalClaim.Data; // Ensure this namespace is correct
+using MedicalClaim.Data;
 using MedicalClaim.Models;
 using MedicalClaim.Services;
 using Moq;
@@ -19,11 +19,12 @@ namespace MedicalClaim.Tests
 
         public ClaimsControllerTests()
         {
-            var options = new DbContextOptionsBuilder<ApplicationDbContext>()
+            var options = new DbContextOptionsBuilder<ApplicationDbContextTest>()
                 .UseInMemoryDatabase(databaseName: "TestDatabase")
                 .Options;
 
             _context = new ApplicationDbContextTest(options);
+
             _context.Claims.Add(new Claim
             {
                 PatientName = "Test Patient",
@@ -36,10 +37,9 @@ namespace MedicalClaim.Tests
             _context.SaveChanges();
 
             var httpClientFactory = new Mock<IHttpClientFactory>();
-            var client = new HttpClient();
-            httpClientFactory.Setup(_ => _.CreateClient(It.IsAny<string>())).Returns(client);
+            httpClientFactory.Setup(_ => _.CreateClient(It.IsAny<string>())).Returns(new HttpClient());
 
-            var validationService = new ClaimValidationService((HttpClient)httpClientFactory.Object);
+            var validationService = new ClaimValidationService(httpClientFactory.Object);
             _controller = new ClaimsController(_context, validationService);
         }
 
