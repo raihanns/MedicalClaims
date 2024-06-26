@@ -1,0 +1,26 @@
+@page "{id:int}"
+@model MedicalClaimFrontEnd.Pages.GetClaimDetailsModel
+
+<h2>Claim Details</h2>
+
+<div>
+    <label>Claim Id:</label> @Model.Claim.ClaimId
+</div>
+<div>
+    <label>Patient Name:</label> @Model.Claim.PatientName
+</div>
+<div>
+    <label>Date of Service:</label> @Model.Claim.DateOfService.ToShortDateString()
+</div>
+<div>
+    <label>Medical Provider:</label> @Model.Claim.MedicalProvider
+</div>
+<div>
+    <label>Diagnosis:</label> @Model.Claim.Diagnosis
+</div>
+<div>
+    <label>Claim Amount:</label> @Model.Claim.ClaimAmount
+</div>
+<div>
+    <label>Status:</label> @Model.Claim.Status
+</div>

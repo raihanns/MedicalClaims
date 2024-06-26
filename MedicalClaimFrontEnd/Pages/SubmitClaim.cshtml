@@ -1,0 +1,39 @@
+@page
+@model MedicalClaimFrontEnd.Pages.SubmitClaimModel
+
+<h2>Submit a Claim</h2>
+<form method="post">
+    <div>
+        <label>Claim Id</label>
+        <input type="text" asp-for="Claim.ClaimId" />
+    </div>
+    <div>
+        <label>Patient Name</label>
+        <input type="text" asp-for="Claim.PatientName" />
+    </div>
+    <div>
+        <label>Date of Service</label>
+        <input type="date" asp-for="Claim.DateOfService" />
+    </div>
+    <div>
+        <label>Medical Provider</label>
+        <input type="text" asp-for="Claim.MedicalProvider" />
+    </div>
+    <div>
+        <label>Diagnosis</label>
+        <input type="text" asp-for="Claim.Diagnosis" />
+    </div>
+    <div>
+        <label>Claim Amount</label>
+        <input type="number" asp-for="Claim.ClaimAmount" />
+    </div>
+    <div>
+        <label>Status</label>
+        <select asp-for="Claim.Status">
+            <option value="Pending">Pending</option>
+            <option value="Approved">Approved</option>
+            <option value="Rejected">Rejected</option>
+        </select>
+    </div>
+    <button type="submit">Submit</button>
+</form>

@@ -1,0 +1,37 @@
+@page
+@model MedicalClaimFrontEnd.Pages.ListAllClaimsModel
+
+<h2>All Claims</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Claim Id</th>
+            <th>Patient Name</th>
+            <th>Date of Service</th>
+            <th>Medical Provider</th>
+            <th>Diagnosis</th>
+            <th>Claim Amount</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var claim in Model.Claims)
+        {
+            <tr>
+                <td>@claim.ClaimId</td>
+                <td>@claim.PatientName</td>
+                <td>@claim.DateOfService.ToShortDateString()</td>
+                <td>@claim.MedicalProvider</td>
+                <td>@claim.Diagnosis</td>
+                <td>@claim.ClaimAmount</td>
+                <td>@claim.Status</td>
+                <td>
+                    <a href="/GetClaimDetails/@claim.ClaimId">View</a>
+                    <a href="/UpdateClaimStatus/@claim.ClaimId">Update</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

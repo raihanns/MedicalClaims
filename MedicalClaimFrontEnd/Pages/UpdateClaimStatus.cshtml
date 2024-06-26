@@ -1,0 +1,17 @@
+@page "{id:int}"
+@model MedicalClaimFrontEnd.Pages.UpdateClaimStatusModel
+
+<h2>Update Claim Status</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="ClaimId" />
+    <div>
+        <label>Status</label>
+        <select asp-for="Status">
+            <option value="Pending">Pending</option>
+            <option value="Approved">Approved</option>
+            <option value="Rejected">Rejected</option>
+        </select>
+    </div>
+    <button type="submit">Update</button>
+</form>
